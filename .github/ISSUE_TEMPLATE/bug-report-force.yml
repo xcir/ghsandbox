@@ -1,0 +1,79 @@
+name: Bug report
+description: Create a report to help us improve
+body:
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: aa
+    placeholder: |+
+      <!--- Did you check that there are no similar bug reports or pull requests? -->
+      <!---
+          If your panic happens in the child_sigsegv_handler function, look at the
+          backtrace to determine whether it is similar to another issue. When in
+          doubt, open a new one and it will be closed as a duplicate if needed.
+      -->
+      <!--- If you're describing a bug, tell us what should happen -->
+      <!--- If you're suggesting a change/improvement, tell us how it should work -->
+      <!---
+          If it's a packaging bug (including sysv or systemd services bugs) please
+          open an issue on varnishcache/pkg-varnish-cache instead.
+      -->
+      <!---
+          If it's a feature request, please start a thread on the misc list instead.
+          https://www.varnish-cache.org/lists/mailman/listinfo/varnish-misc
+      -->
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Current Behavior
+    description: aa
+    placeholder: |+
+      <!--- If describing a bug, tell us what happens instead of the expected behavior -->
+      <!--- If suggesting a change/improvement, explain the difference from current behavior -->
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Possible Solution
+    description: aa
+    placeholder: |+
+      <!--- Not obligatory, but suggest a fix/reason for the bug, -->
+      <!--- or ideas how to implement the addition or change -->
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps to Reproduce (for bugs)
+    description: aa
+    placeholder: |+
+      <!--- Provide a link to a live example, or an unambiguous set of steps to -->
+      <!--- reproduce this bug. Include code to reproduce, if relevant -->
+      1.
+      2.
+      3.
+      4.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Context
+    description: aa
+    placeholder: |+
+      <!--- How has this issue affected you? What are you trying to accomplish? -->
+      <!--- Providing context helps us come up with a solution that is most useful in the real world -->
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Varnish Cache version or revision
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Operating system
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Source of binary packages used (if any)
