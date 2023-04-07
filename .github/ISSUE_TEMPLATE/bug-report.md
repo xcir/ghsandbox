@@ -1,3 +1,12 @@
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 <!--- Things to check before you report a bug
 
     - Is the issue you are seeing clearly an issue in varnish core or
