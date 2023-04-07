@@ -68,9 +68,11 @@ body:
   attributes:
     label: Varnish Cache version or revision
   validations:
+    placeholder: 7.X.X
     required: true
 - type: input
   attributes:
+    placeholder: Ubuntu22.04
     label: Operating system
   validations:
     required: true
