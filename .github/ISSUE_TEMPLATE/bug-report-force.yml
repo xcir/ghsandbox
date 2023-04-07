@@ -67,8 +67,8 @@ body:
 - type: input
   attributes:
     label: Varnish Cache version or revision
-  validations:
     placeholder: 7.X.X
+  validations:
     required: true
 - type: input
   attributes:
