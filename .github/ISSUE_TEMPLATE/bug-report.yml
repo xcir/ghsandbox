@@ -15,7 +15,7 @@ body:
 - type: textarea
   attributes:
     label: Expected Behavior
-    placeholder: |+
+    description: |+
       If you're describing a bug, tell us what should happen.
       If you're suggesting a change/improvement, tell us how it should work.
   validations:
@@ -54,7 +54,8 @@ body:
 - type: input
   attributes:
     label: Varnish Cache version
-    description: "varnishd -V"
+    description: |+
+      The version can be obtained by "varnishd -V".
     placeholder: "varnishd (varnish-7.3.0 revision 84d79120b6d17b11819a663a93160743f293e63f)"
 - type: input
   attributes:
