@@ -53,7 +53,7 @@ body:
 - type: input
   attributes:
     label: Varnish Cache version
-    placeholder: 7.X.X / 251ef93
+    placeholder: varnishd -V output ex: varnishd (varnish-7.3.0 revision 84d79120b6d17b11819a663a93160743f293e63f)
   validations:
     required: true
 - type: input
@@ -65,3 +65,4 @@ body:
 - type: input
   attributes:
     label: Source of binary packages used (if any)
+    placeholder: https://packagecloud.io/varnishcache/
