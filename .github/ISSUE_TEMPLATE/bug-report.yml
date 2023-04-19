@@ -10,6 +10,8 @@ body:
       
       If it's a packaging bug (including sysv or systemd services bugs) please open an issue on [varnishcache/pkg-varnish-cache](https://github.com/varnishcache/pkg-varnish-cache) instead.
       
+      If it's a feature request, please start a thread on the [varnish-misc](https://varnish-cache.org/support/index.html#mailing-lists) list instead.
+      
 - type: textarea
   attributes:
     label: Expected Behavior
