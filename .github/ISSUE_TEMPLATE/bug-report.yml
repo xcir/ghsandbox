@@ -1,22 +1,22 @@
 name: Bug report
 description: Create a report to help us improve
 body:
+- type: markdown
+  attributes:
+    value: |+
+      Did you check that there are no similar bug reports or pull requests?
+      If your panic happens in the child_sigsegv_handler function, look at the backtrace to determine whether it is similar to another issue. When in doubt, open a new one and it will be closed as a duplicate if needed.
+      If it's a packaging bug (including sysv or systemd services bugs) please open an issue on varnishcache/pkg-varnish-cache instead.
+      
 - type: textarea
   attributes:
     label: Expected Behavior
+    placeholder: |+
+      If you're describing a bug, tell us what should happen.
+      If you're suggesting a change/improvement, tell us how it should work.
     value: |+
-      <!--- Did you check that there are no similar bug reports or pull requests? -->
-      <!---
-          If your panic happens in the child_sigsegv_handler function, look at the
-          backtrace to determine whether it is similar to another issue. When in
-          doubt, open a new one and it will be closed as a duplicate if needed.
-      -->
       <!--- If you're describing a bug, tell us what should happen -->
       <!--- If you're suggesting a change/improvement, tell us how it should work -->
-      <!---
-          If it's a packaging bug (including sysv or systemd services bugs) please
-          open an issue on varnishcache/pkg-varnish-cache instead.
-      -->
       <!---
           If it's a feature request, please start a thread on the misc list instead.
           https://www.varnish-cache.org/lists/mailman/listinfo/varnish-misc
